@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'TIME_TO_READ'	=> array(
-		1 => '<br>Lu en moyenne 1 minute',
-		2 => '<br>Lu en moyenne %d minutes',
+		1 => 'Lu en moyenne durant 1 minute',
+		2 => 'Lu en moyenne durant %d minutes',
 	),
 ));
